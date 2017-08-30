@@ -1,0 +1,136 @@
+/* Text Styling */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+
+}
+
+
+
+h1 {
+    font-size: 12px;
+    color: #000000;
+}
+p {
+    font-weight: normal;
+}
+
+/* Element Styling */
+
+
+body{
+    background: #e4f1fe;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:  #6c7a89;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h1, h3{
+    font-family: 'Oswald', sans-serif;
+}
+h2 {font-family: 'Shadows Into Light', cursive;
+}
+h1{
+    color: #F62459;
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #22313f;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #6c7a89;
+    font-size: 16px;
+    font-weight: 300;
+}
+li {
+    color: #34495E
+}
+a{
+    color: #e26a6a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F62459;
+    text-decoration: none;
+}
+
+table{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 3em;
+}
+
+/* Box Model */
+
+.text-center {
+    text-align: center;
+}
+
+#container{
+    width: 500px;
+    margin: 30px auto;
+}
+
+.card{
+    background: #eeeeee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
